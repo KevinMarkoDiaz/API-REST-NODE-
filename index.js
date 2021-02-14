@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const app = require('./app');
-const port = 3700;
+const port = 3000;
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/BIdeas')
